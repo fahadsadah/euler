@@ -8,4 +8,4 @@ biggestprod = 0
 	number[x..y].each_char { |z| prod *= z.to_i }
 	biggestprod = prod unless prod < biggestprod
 end
-print "biggestprod is " + biggestprod
+print "biggestprod is " + biggestprod.to_s + "\n"
