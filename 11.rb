@@ -43,17 +43,17 @@ biggestprod = 0
 		end
 		#up-right
 		if y - 3 >= 0 && x + 3 <= 19 then
-			prod = grid[y][x] * grid[y-1][x+1] * grid[y-2][x+2] * grid[y-3][    x+3]
+			prod = grid[y][x] * grid[y-1][x+1] * grid[y-2][x+2] * grid[y-3][x+3]
 			biggestprod = prod if prod > biggestprod
 		end
 		#down-left
 		if y + 3 <= 19 && x - 3 >= 0 then
-			prod = grid[y][x] * grid[y+1][x-1] * grid[y+2][x-2] * grid[y+3][    x-3]
+			prod = grid[y][x] * grid[y+1][x-1] * grid[y+2][x-2] * grid[y+3][x-3]
 			biggestprod = prod if prod > biggestprod
 		end
 		#down-right
 		if y + 3 <= 19 && x + 3 <= 19 then
-			prod = grid[y][x] * grid[y+1][x+1] * grid[y+2][x+2] * grid[y+3][        x+3]
+			prod = grid[y][x] * grid[y+1][x+1] * grid[y+2][x+2] * grid[y+3][x+3]
 			biggestprod = prod if prod > biggestprod
 		end
 	end
