@@ -58,4 +58,4 @@ biggestprod = 0
 		end
 	end
 end
-print "biggestprod = " + biggestprod.to_s + "\n"
+print "biggestprod is " + biggestprod.to_s + "\n"
