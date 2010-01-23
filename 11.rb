@@ -12,8 +12,8 @@ grid = Array.new
 	end
 end
 grid.each do
-	|x|
-	grid[x].each do
-		|y|
+	|y|
+	grid[y].each do
+		|x|
 	end
 end
