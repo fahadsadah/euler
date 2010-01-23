@@ -5,7 +5,7 @@ biggestprod = 0
 	|x|
 	y = x + 4
 	prod = 0
-	number[x..y].each_char { |z| prod *= z.to_i }
+	number[x..y].each_char { |z| prod = z.to_i * prod }
 	biggestprod = prod unless prod < biggestprod
 end
 print "biggestprod is " + biggestprod.to_s + "\n"
