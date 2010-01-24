@@ -8,4 +8,4 @@ biggestprod = 0
 	prod = number[x].to_i * number[x+1].to_i * number[x+2].to_i * number[x+3].to_i * number[x+4].to_i
 	biggestprod = prod if prod > biggestprod
 end
-print "biggestprod is " + biggestprod.to_s + "\n"
+print "biggestprod is #{biggestprod}\n"
